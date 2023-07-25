@@ -74,31 +74,39 @@ font-size: 45px;
   flex-direction: column;
   justify-content: center;
   align-items:center;
+
 }
 #table th {
   font-size: 35px;
   font-weight: 500;
+  text-decoration: underline;
 }
 #mytodo-tasks {
   font-size: 28px;
-  text-decoration: underline;
-  letter-spacing: 1px;
+}
+#mytodo-tasks td{
+  display: flex;
+}
+.title-tasks{
+  position: relative;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
 }
 .btn-primary {
-  border: 0.5px solid #000000;
+  border: none;
   background-color: #0d75ec;
   color: #ffffff;
   outline: none;
   width: 150px;
   height: 32px;
   border-radius: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
   font-size: 20px;
   letter-spacing: 0.5px;
+  margin-bottom: 2px;
 }
 .btn-danger {
-  border: 0.5px solid #000000;
+  border: none;
   background-color: #F92B2B;
   color: #ffffff;
   outline: none;

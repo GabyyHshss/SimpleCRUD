@@ -21,7 +21,7 @@ function ReadAllTask() {
 	let data = "";
 	for (var i = 0; i < mytodo_list.length; i++) {
 		data += "<tr>";
-		data += "<td>" + mytodo_list[i] + "</td>";
+		data += "<td class='title-tasks'>" + mytodo_list[i] + "</td>";
 		data += "<td><button class='btn btn-primary' onclick=UpdateTask(" + i + ")>Update</button></td>";
 		data += "<td><button class='btn btn-danger' onclick=DeleteTask(" + i + ")>Delete</button></td>";
 		data += "</tr>";
