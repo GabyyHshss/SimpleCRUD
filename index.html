@@ -10,12 +10,13 @@
 <body>
 	<section class="mytodo-container">
 		<div class="mytodo-list">
+			<h1 class="title">My to Do List</h1>
 			<form action="javascript:void(0);" id="CreateForm">
-				<input type="text" id="add-task" placeholder="New Task...">
+				<input type="text" id="add-task" placeholder=" - New Task -">
 				<div>
 					<input type="submit" onclick="CreateTask()" value="Create">
 				</div>
-
+				
 			</form>
 		<form action="javascript:void(0);" id="UpdateForm">
 			<input type="text" id="update-task">
@@ -27,7 +28,7 @@
 
 		<table id="table">
 			<tr>
-				<th>My to Do List</th>
+				<th>My Task</th>
 			</tr>
 			<tbody id="mytodo-tasks"></tbody>
 		</table>

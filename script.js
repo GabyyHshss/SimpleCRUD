@@ -1,7 +1,7 @@
 // default toDo
 
-let mytodo_list = ["Do Exercise", "Solve Bug", "Meet Team"];
-
+//let mytodo_list = ["Do Exercise", "Solve Bug", "Meet Team"];
+let mytodo_list = [];
 // CREATE
 
 function CreateTask() {
