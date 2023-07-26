@@ -34,7 +34,8 @@ ReadAllTask();
 // UPDATE
 
 function UpdateTask (item) {
-	document.getElementById("UpdateForm").style.display = "block";
+
+	document.getElementById("UpdateForm").style.display = "flex";
 	document.getElementById("update-task").value = mytodo_list[item];
 	document.getElementById("UpdateForm").onsubmit = function () {
 		let task = document.getElementById("update-task").value;

@@ -50,7 +50,6 @@ font-size: 45px;
   font-size: 15px;
   border: 2px solid #d1d3d4;
   color: #E4E5E8;
-
 }
 #CreateForm input:focus {
   outline: none;
@@ -58,7 +57,7 @@ font-size: 45px;
 }
 #CreateForm input[type="submit"]{
   position: relative;
-  margin-top: 2%;
+  margin-top: 1%;
   font-size: 20px;
   width: 250px;
   background-color: #111218;
@@ -66,8 +65,35 @@ font-size: 45px;
 
 #UpdateForm {
 	display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
 }
+#UpdateForm input[value="Update"]{
+  margin-top: 5px;
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #73D473;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-size: 20px;
 
+}
+#update-task {
+  width: 85%;
+  height: 45px;
+  border-radius: 5px; 
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  text-align: center;
+}
+#update-task:focus {
+  outline: none;
+  border-color: #0d75ec;
+}
 
 #table, #counter {
   display: flex;
